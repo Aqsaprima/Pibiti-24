@@ -1,0 +1,73 @@
+*{
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
+hr{
+  margin: 25px 0;
+  border: 2px solid black;
+  opacity: 1;
+}
+
+img{
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.clink{
+  text-decoration: none;
+  color: black;
+}
+
+.cpad{
+  padding: 0 20vw;
+  max-width: none;
+}
+
+.cflexcenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cdrop{
+  border: 2px solid black;
+}
+
+.ccard{
+  border: 2px solid black;
+  width: 30%;
+}
+
+.foto{
+  background: url(./image/foto.jpg);
+  background-size: contain;
+  padding-top: 99%;
+}
+
+#galkat p {
+  height: 80px;
+}
+
+#ran1 img {
+  height: 250px;
+}
+
+#sectdaf{
+  min-height: 200px;
+}
+
+.clist{
+  height: 40px;
+}
+
+.clist:first-child, #galkat img {
+  border-radius: 0.375rem 0.375rem 0 0;
+}
+
+.clist:last-child {
+  border-radius: 0 0 0.375rem 0.375rem;
+}
+
+.navbar{
+  height: 50px;
+}
