@@ -1,44 +1,44 @@
-*{
-  font-family: 'Balsamiq Sans', sans-serif;
+* {
+  font-family: "Balsamiq Sans", sans-serif;
 }
 
-hr{
+hr {
   margin: 25px 0;
   border: 2px solid black;
   opacity: 1;
 }
 
-img{
+img {
   max-width: 100%;
   object-fit: contain;
 }
 
-.clink{
+.clink {
   text-decoration: none;
   color: black;
 }
 
-.cpad{
+.cpad {
   padding: 0 20vw;
   max-width: none;
 }
 
-.cflexcenter{
+.cflexcenter {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.cdrop{
+.cdrop {
   border: 2px solid black;
 }
 
-.ccard{
+.ccard {
   border: 2px solid black;
   width: 30%;
 }
 
-.foto{
+.foto {
   background: url(./image/foto.jpg);
   background-size: contain;
   padding-top: 99%;
@@ -52,15 +52,16 @@ img{
   height: 250px;
 }
 
-#sectdaf{
+#sectdaf {
   min-height: 200px;
 }
 
-.clist{
+.clist {
   height: 40px;
 }
 
-.clist:first-child, #galkat img {
+.clist:first-child,
+#galkat img {
   border-radius: 0.375rem 0.375rem 0 0;
 }
 
@@ -68,6 +69,6 @@ img{
   border-radius: 0 0 0.375rem 0.375rem;
 }
 
-.navbar{
+.navbar {
   height: 50px;
 }
